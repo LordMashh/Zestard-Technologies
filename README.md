@@ -7,17 +7,16 @@ Welcome to the repository for the PSD to HTML/CSS conversion task assigned by Ze
 The task involves converting a PSD (Photoshop Document) design into HTML/CSS code. The goal is to accurately translate the visual elements, layout, and styling from the PSD file into a functional web page.
 
 ## Repository Contents
-1. **PSD File**: This directory contains the PSD design file provided by Zestard Technologies.
 
-2. **HTML**: This directory contains the HTML files generated as part of the conversion process. Each HTML file corresponds to a specific page or section of the design.
+1. **HTML**: This directory contains the HTML files generated as part of the conversion process. Each HTML file corresponds to a specific page or section of the design.
 
-3. **CSS**: This directory contains the CSS files used to style the HTML pages. Separate CSS files may be present for different pages or components.
+2. **CSS**: This directory contains the CSS files used to style the HTML pages. Separate CSS files may be present for different pages or components.
 
-4. **Images**: This directory contains any images or assets used in the PSD design, such as logos, icons, or background images.
+3. **Images**: This directory contains any images or assets used in the PSD design, such as logos, icons, or background images.
 
-5. **Fonts**: This directory contains any custom fonts used in the design. These fonts may need to be included in the project for accurate rendering.
+4. **Fonts**: This directory contains any custom fonts used in the design. These fonts may need to be included in the project for accurate rendering.
 
-6. **README.md**: This file provides an overview of the repository and instructions for accessing and using the contents.
+5. **README.md**: This file provides an overview of the repository and instructions for accessing and using the contents.
 
 ## Usage
 To view the HTML/CSS output of the PSD to HTML/CSS conversion:
