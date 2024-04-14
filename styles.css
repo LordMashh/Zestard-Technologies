@@ -1,0 +1,320 @@
+:root {
+
+    /* Colors: */
+    --unnamed-color-00964a: #00964A;
+    --unnamed-color-000000: #000000;
+    --unnamed-color-202020: #202020;
+    --unnamed-color-ffffff: #FFFFFF;
+
+    /* Font/text values */
+    --unnamed-font-family-azo-sans: Azo Sans;
+    --unnamed-font-family-bely-display: Bely Display;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-300: 300px;
+    --unnamed-font-weight-medium: medium;
+    --unnamed-font-weight-normal: normal;
+    --unnamed-font-size-32: 32px;
+    --unnamed-font-size-60: 60px;
+    --unnamed-font-size-200: 200px;
+    --unnamed-character-spacing--1-28: -1.28px;
+    --unnamed-character-spacing--2-4: -2.4px;
+    --unnamed-character-spacing--5: -5px;
+    --unnamed-line-spacing-46: 46px;
+    --unnamed-line-spacing-55: 55px;
+    --unnamed-line-spacing-180: 180px;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+    font-family: var(--unnamed-font-family-azo-sans);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-medium);
+    font-size: var(--unnamed-font-size-60);
+    line-height: var(--unnamed-line-spacing-46);
+    letter-spacing: var(--unnamed-character-spacing--2-4);
+    color: var(--unnamed-color-000000);
+}
+
+.unnamed-character-style-2 {
+    font-family: var(--unnamed-font-family-azo-sans);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-300);
+    font-size: var(--unnamed-font-size-32);
+    line-height: var(--unnamed-line-spacing-55);
+    letter-spacing: var(--unnamed-character-spacing--1-28);
+    color: var(--unnamed-color-202020);
+}
+
+.unnamed-character-style-3 {
+    font-family: var(--unnamed-font-family-bely-display);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-200);
+    line-height: var(--unnamed-line-spacing-180);
+    letter-spacing: var(--unnamed-character-spacing--5);
+    color: var(--unnamed-color-ffffff);
+}
+
+.logo {
+    /* Layout Properties */
+    top: 29px;
+    left: 685px;
+    width: 71px;
+    height: 100px;
+    /* UI Properties */
+    background: transparent url('assets/logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.smalllogo {
+    width: 17px;
+    height: 21px;
+    /* UI Properties */
+    background: transparent url('assets/Path\ 1875.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.greenlogo {
+    margin: 10px;
+    width: 95px;
+    height: 99px;
+    /* UI Properties */
+    background: transparent url('assets/Group\ 2507.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.footer-logo {
+    width: 56px;
+    height: 71px;
+    background: transparent url('assets/Path\ 8341.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.social-icons {
+    width: 149px;
+    height: 24px;
+    background: transparent url('assets/Group\ 2719.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.shopall {
+    width: 62px;
+    height: 13px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 10px/11px var(--unnamed-font-family-azo-sans);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal medium 10px/11px Azo Sans;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.cart {
+    width: 107px;
+    height: 29px;
+    /* UI Properties */
+    background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 66px;
+    opacity: 1;
+}
+
+.faceimages {
+    width: 1052px;
+    height: 137px;
+    /* UI Properties */
+    background: transparent url('assets/Group\ 1125.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.bottle1 {
+    width: 344px;
+    height: 430px;
+    /* UI Properties */
+    background: transparent url('assets/bottle1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.bottle2 {
+    width: 344px;
+    height: 430px;
+    /* UI Properties */
+    background: transparent url('assets/bottle2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.bottle3 {
+    width: 344px;
+    height: 430px;
+    /* UI Properties */
+    background: transparent url('assets/bottle3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.footer-signup {
+    width: 100px;
+    height: 35px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 66px;
+    opacity: 1;
+}
+
+.leafimage {
+    width: 120px;
+    height: 109px;
+    transform: rotate(360deg);
+
+    /* UI Properties */
+    background: transparent url('assets/Group\ 2503.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.main {
+
+    background: transparent url('assets/main.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.sentence {
+    /* Layout Properties */
+
+    width: 311px;
+    height: 295px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 76px/68px var(--unnamed-font-family-bely-display);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 76px/68px Bely Display;
+    letter-spacing: -1.9px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.shopnowbutton {
+    /* Layout Properties */
+ 
+    width: 114px;
+    height: 35px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+/* Hide all cards except the first one */
+
+.slider-container .card {
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Show the first card initially */
+.slider-container .card:first-child {
+    display: block;
+}
+
+/* Slider arrow styles */
+.leftarrow,
+.rightarrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+
+
+
+.leftarrow,
+.rightarrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+@media (max-width: 600px) {
+
+
+    .main {
+        background: transparent url('assets/photosmall.png') 0% 0% no-repeat padding-box;
+        background-size: cover;
+    }
+
+    .faceimages {
+        width: 220px;
+        height: 206px;
+        /* UI Properties */
+        background: transparent url('assets/Group\ 2562.svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .sentence {
+        /* Layout Properties */
+        top: 293px;
+        left: 39px;
+        width: 188px;
+        height: 185px;
+        /* UI Properties */
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 46px/43px var(--unnamed-font-family-bely-display);
+        color: var(--unnamed-color-ffffff);
+        text-align: left;
+        font: normal normal normal 46px/43px Bely Display;
+        letter-spacing: -1.15px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .shopnowbutton {
+        /* Layout Properties */
+        top: 489px;
+        left: 39px;
+        width: 116px;
+        height: 37px;
+        /* UI Properties */
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+}
+
+/* 
+@media (min-width: 601px) and (max-width: 1024px) {
+    .logo {
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 85px;
+    }
+
+    .main {
+        background-size: cover;
+    }
+
+    .sentence {
+        top: 180px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: auto;
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+    .shopnowbutton {
+        top: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 25px;
+    }
+} */
